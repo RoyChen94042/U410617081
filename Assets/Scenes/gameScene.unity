@@ -113,6 +113,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &73363119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: bc68161803d796443bd727c1d121b937,
+    type: 2}
+  m_PrefabInternal: {fileID: 561690433}
+--- !u!114 &73363120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 73363119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc629ac841cf47a4c88bbcf8e76650c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dominoePrefab: {fileID: 100000, guid: bc68161803d796443bd727c1d121b937, type: 2}
+  dominoeEnd: {fileID: 1998446240}
+  NumCenterDom: 10
 --- !u!1 &300210756
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +218,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: bc68161803d796443bd727c1d121b937, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -12
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc68161803d796443bd727c1d121b937, type: 2}
       propertyPath: m_LocalPosition.y
@@ -391,6 +410,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1998446240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: bc68161803d796443bd727c1d121b937,
+    type: 2}
+  m_PrefabInternal: {fileID: 2109456484}
 --- !u!1001 &2109456484
 Prefab:
   m_ObjectHideFlags: 0
@@ -400,7 +424,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: bc68161803d796443bd727c1d121b937, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc68161803d796443bd727c1d121b937, type: 2}
       propertyPath: m_LocalPosition.y
