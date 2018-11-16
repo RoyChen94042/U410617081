@@ -61,7 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\myfun.cs" />
+    <Compile Include="Assets\Script\myfun.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/U410617081/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
